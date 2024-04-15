@@ -1,0 +1,5 @@
+motion:The current state of the motion sensor
+door:The current state of the door
+temperature:A number that usually represents the current temperature
+lightingMode:The current state of the light
+fanMode:The current mode of the fan

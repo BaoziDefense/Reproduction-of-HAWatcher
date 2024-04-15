@@ -1,0 +1,110 @@
+'e2e' correlation:
+pre_event=Event(subject='M002', attribute='motion', constraint='ON',extraConstraint='None')
+condition=None
+following_event=Event(subject='L001', attribute='lightingMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M002', attribute='motion', constraint='OFF',extraConstraint='None')
+condition=None
+following_event=Event(subject='L001', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M004', attribute='motion', constraint='ON',extraConstraint='None')
+condition=None
+following_event=Event(subject='L002', attribute='lightingMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M004', attribute='motion', constraint='OFF',extraConstraint='None')
+condition=None
+following_event=Event(subject='L002', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M001', attribute='motion', constraint='ON',extraConstraint='None')
+condition=State(subject='L003', attribute='lightingMode', constraint='OFF')
+following_event=Event(subject='L003', attribute='lightingMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M003', attribute='motion', constraint='ON',extraConstraint='None')
+condition=State(subject='L003', attribute='lightingMode', constraint='OFF')
+following_event=Event(subject='L003', attribute='lightingMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M001', attribute='motion', constraint='OFF',extraConstraint='None')
+condition=State(subject='M003', attribute='motion', constraint='OFF')
+following_event=Event(subject='L003', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M003', attribute='motion', constraint='OFF',extraConstraint='None')
+condition=State(subject='M001', attribute='motion', constraint='OFF')
+following_event=Event(subject='L003', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M007', attribute='motion', constraint='ON',extraConstraint='None')
+condition=State(subject='L004', attribute='lightingMode', constraint='OFF')
+following_event=Event(subject='L004', attribute='lightingMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M008', attribute='motion', constraint='ON',extraConstraint='None')
+condition=State(subject='L004', attribute='lightingMode', constraint='OFF')
+following_event=Event(subject='L004', attribute='lightingMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M007', attribute='motion', constraint='OFF',extraConstraint='None')
+condition=State(subject='M008', attribute='motion', constraint='OFF')
+following_event=Event(subject='L004', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='M008', attribute='motion', constraint='OFF',extraConstraint='None')
+condition=State(subject='M007', attribute='motion', constraint='OFF')
+following_event=Event(subject='L004', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='T101', attribute='temperature', constraint='>=32',extraConstraint='None')
+condition=State(subject='Fan1', attribute='fanMode', constraint='OFF')
+following_event=Event(subject='Fan1', attribute='fanMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='T101', attribute='temperature', constraint='<31',extraConstraint='None')
+condition=State(subject='Fan1', attribute='fanMode', constraint='ON')
+following_event=Event(subject='Fan1', attribute='fanMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='T103', attribute='temperature', constraint='>=25',extraConstraint='None')
+condition=State(subject='Fan2', attribute='fanMode', constraint='OFF')
+following_event=Event(subject='Fan2', attribute='fanMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='T103', attribute='temperature', constraint='<24',extraConstraint='None')
+condition=State(subject='Fan2', attribute='fanMode', constraint='ON')
+following_event=Event(subject='Fan2', attribute='fanMode', constraint='OFF',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='T104', attribute='temperature', constraint='>=25',extraConstraint='None')
+condition=State(subject='Fan3', attribute='fanMode', constraint='OFF')
+following_event=Event(subject='Fan3', attribute='fanMode', constraint='ON',extraConstraint='None')
+
+'e2e' correlation:
+pre_event=Event(subject='T104', attribute='temperature', constraint='<24',extraConstraint='None')
+condition=State(subject='Fan3', attribute='fanMode', constraint='ON')
+following_event=Event(subject='Fan3', attribute='fanMode', constraint='OFF',extraConstraint='None')
+
+'e2s' correlation:
+pre_event=Event(subject='L001', attribute='lightingMode', constraint='ON',extraConstraint='None')
+condition=None
+following_state=State(subject='M002', attribute='motion', constraint='ON')
+
+'e2s' correlation:
+pre_event=Event(subject='L001', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+condition=None
+following_state=State(subject='M002', attribute='motion', constraint='OFF')
+
+'e2s' correlation:
+pre_event=Event(subject='L002', attribute='lightingMode', constraint='ON',extraConstraint='None')
+condition=None
+following_state=State(subject='M004', attribute='motion', constraint='ON')
+
+'e2s' correlation:
+pre_event=Event(subject='L002', attribute='lightingMode', constraint='OFF',extraConstraint='None')
+condition=None
+following_state=State(subject='M004', attribute='motion', constraint='OFF')
+

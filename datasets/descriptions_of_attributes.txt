@@ -1,0 +1,20 @@
+acceleration:A string representation of whether the sensor is active or not
+lightingMode:Current lighting mode of the device
+activity:The current state of the activity sensor
+supportedAcFanModes:Supported states for this air conditioner fan to be in
+airQuality:Current air quality number
+alarm:A string representation of whether the switch is on or off
+mute:Current status of the audio mute
+volume:The current volume setting of the audio
+battery:An indication of the status of the battery
+bmiMeasurement:Current body mass index measured in kilograms per meter squared
+carbonDioxideHealthConcern:Current health concern of carbon dioxide, based on the relative health hazard
+energy:Numeric value representing energy consumption
+gasMeter:the gas energy reported by the metering device
+illuminance:The illuminance measurement in LUX
+lock:The state of the lock device
+motion:The current state of the motion sensor
+detected:The current objects that are detected
+pH:A number representing the current pH level measured by the device
+powerConsumption:energy and power consumption during specific time period
+power:A number representing the current power consumption. Check the device documentation for how this value is reported
