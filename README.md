@@ -49,3 +49,11 @@ It is used to generate the adjacency table. Refer to `docs` for details on how t
 | [anomaly_detection.py](https://github.com/BaoziDefense/Reproduction-of-HAWatcher/blob/master/codes/anomaly_detection.py) | the title is as it sounds                                    |
 | other codes                                                  | perhaps useless                                              |
 
+
+| name                         | usage                                                    |
+| ---------------------------- | -------------------------------------------------------- |
+| get_rules_from_GUI.py        | the main workflow of getting rules from description page |
+| causal_division.py           | Lemmatization and Partition                              |
+| calculate_similarity_BERT.py | Capability Matching                                      |
+
+
