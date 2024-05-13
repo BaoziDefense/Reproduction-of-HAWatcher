@@ -6,7 +6,8 @@ This is a reproduction of the paper:21USENIX-HAWatcher Semantics-Aware Anomaly D
 
 You should fully understand the content and structure of the article before implementing it.
 
-I neglected to mention the initial rule extraction work in the HAWatcher step (which is in fact not part of HAWatcher, but part of the article `DSN20 - Cross App Interference Threats in Smart Homes Categorization, Detection and Handling`)
+I neglected to mention the initial rule extraction work in the HAWatcher step (which is in fact not part of HAWatcher, but part of the article `DSN20 - Cross App Interference Threats in Smart Homes Categorization, Detection and Handling`).
+
 And i adopt the rule extraction method of the article`ndss24 CP-IoT: A Cross-Platform Monitoring System for Smart Home`, which is cross-platform and better than `HAWatcher`.
 
 ![image](https://github.com/BaoziDefense/Reproduction-of-HAWatcher/assets/121147777/ef393ff2-cbd5-4bc2-92be-08304186ee42)
